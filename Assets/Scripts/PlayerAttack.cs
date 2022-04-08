@@ -25,7 +25,6 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         ammoText.text = ammoCurrent.ToString() + "/" + ammoMax.ToString();
-        //gameManager = FindObjectOfType<GameManager>();
     }
 
     private void Awake()
